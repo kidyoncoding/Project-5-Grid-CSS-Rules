@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid CSS Rules</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>Grid CSS Rules</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p class="number">1</p>
+            <p><span>1-6</span> là sắp xếp mặc định của các hộp (trái qua phải, trên xuống dưới)</p>
+        </div>
+        <div class="grid-item">
+            <p class="number">2</p>
+            <p><span>grid-gap:</span>... tạo khoảng cách giữa các hộp</p>
+        </div>
+        <div class="grid-item">
+            <p class="number">3</p>
+            <p><span>grid-template:</span> grid-template-rows/ grid-template-columns </p>
+        </div>
+
+        <div class="grid-item">
+            <p class="number">4</p>
+
+            <p><span>grid-row(column):</span> grid-row(column)-start/ grid-row(column)-end</p>
+            <p><span>grid-area:</span> grid-row-start/ grid-column-start/ grid-row-end/ grid-column-end</p>
+
+        </div>
+        <div class="grid-item">
+            <p class="number">5</p>
+            <p><span>order:</span> có thể mang giá trị âm hoặc dương</p>
+        </div>
+        <div class="grid-item">
+            <p class="number">6</p>
+            <p><span>nth-child</span> là một pseudoclass trong CSS, nó được sử dụng để chọn phần tử con thứ n trong phần
+                tử cha nó. </p>
+            <p class="example">Ví dụ: <span>grid-container</span> bao gồm 6 <span>grid-item</span>. Ta có thể gọi từng
+                item trong CSS bằng cách <span>.grid-item:nth-child(n)</span> với n từ 1 đến 6 </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
